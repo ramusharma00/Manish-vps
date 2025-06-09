@@ -112,7 +112,7 @@ async def account_login(bot: Client, m: Message):
     else:
         MR = raw_text3
    
-    await editable.edit("Now send the **Thumb url**\nEg » ```https://telegra.ph/file/5e937c29a415223ffaf9e.jpg```\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\nEg » ```https://telegra.ph/file/5e937c2915223ffaf9e.jpg```\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
